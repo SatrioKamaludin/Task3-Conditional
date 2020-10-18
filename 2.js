@@ -1,14 +1,14 @@
 function grade(angka) {
-    if (90 <= angka && angka <= 100){
+    if (angka >= 90 && angka <= 100){
         console.log(`Nilai anda adalah A`)
     }
-    else if (75 <= angka && angka <= 89){
+    else if (angka >= 75 && angka <= 89){
         console.log(`Nilai anda adalah B`)
     }
-    else if (60 <= angka && angka <= 74){
+    else if (angka >= 60 && angka <= 74){
         console.log(`Nilai anda adalah C`)
     }
-    else if (50 <= angka && angka <= 59){
+    else if (angka >= 50 && angka <= 59){
         console.log(`Nilai anda adalah D`)
     }
     else if (angka < 50){

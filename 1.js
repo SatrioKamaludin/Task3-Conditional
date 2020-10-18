@@ -20,10 +20,8 @@
 //     alert(`input salah`);
 // }  doesn't work for some reason
 
-var hari = prompt("Hari ini : ");
-
 function hari(besok){
-    switch (besok)
+    switch (besok.toLowerCase())
     {
         case `minggu`: console.log(`besok adalah hari senin`);
         break;
@@ -43,3 +41,5 @@ function hari(besok){
         break;
     }
 }
+
+//how to run: hari('hari sekarang');
