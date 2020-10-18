@@ -1,4 +1,4 @@
-function genap(input) {
+function ganjil(input) {
     for (var i = 1; i <= input; i++) {
         {
             if (Number.isInteger(input)) {
